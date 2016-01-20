@@ -20,10 +20,6 @@ it, simply add the following line to your Podfile:
 pod "AppBaseLib"
 ```
 
-## Author
-
-Jesse Xu, jessexu@augmentum.com.cn
-
 ## License
 
 AppBaseLib is available under the MIT license. See the LICENSE file for more info.
