@@ -1,0 +1,25 @@
+{
+  "name": "AppBaseLib",
+  "version": "0.1.0",
+  "summary": "A short description of AppBaseLib.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/AppBaseLib",
+  "license": "MIT",
+  "authors": {
+    "Jesse Xu": "jessexu@augmentum.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/AppBaseLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "AppBaseLib": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+#source 'https://github.com/CocoaPods/Specs.git'
+source 'https://git.coding.net/hging/Specs.git'
+use_frameworks!
+
+target 'AppBaseLib_Example', :exclusive => true do
+  pod "AppBaseLib", :path => "../"
+end
+
+target 'AppBaseLib_Tests', :exclusive => true do
+  pod "AppBaseLib", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
