@@ -13,11 +13,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-AppBaseLib is available through [CocoaPods](http://cocoapods.org). To install
+AppBaseLib is available. To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "AppBaseLib"
+pod 'AppBaseLib', :git => 'git@github.com:fleetlabs/swift-common.git'
 ```
 
 ## License
