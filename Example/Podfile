@@ -6,8 +6,3 @@ target 'AppBaseLib_Example', :exclusive => true do
   pod "AppBaseLib", :path => "../"
 end
 
-target 'AppBaseLib_Tests', :exclusive => true do
-  pod "AppBaseLib", :path => "../"
-
-  pod 'FBSnapshotTestCase'
-end

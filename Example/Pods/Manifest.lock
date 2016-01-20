@@ -1,21 +1,14 @@
 PODS:
   - AppBaseLib (0.1.0)
-  - FBSnapshotTestCase (2.0.7):
-    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
-  - FBSnapshotTestCase/Core (2.0.7)
-  - FBSnapshotTestCase/SwiftSupport (2.0.7):
-    - FBSnapshotTestCase/Core
 
 DEPENDENCIES:
   - AppBaseLib (from `../`)
-  - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   AppBaseLib:
     :path: ../
 
 SPEC CHECKSUMS:
-  AppBaseLib: cfecd87de5f44c92a969655eb0dd0d172eaa7e87
-  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  AppBaseLib: db54cfaacd7ea6f027047792a1fda04a8cb82c02
 
 COCOAPODS: 0.38.2
