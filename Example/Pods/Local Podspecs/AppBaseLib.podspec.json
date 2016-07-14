@@ -1,10 +1,10 @@
 {
   "name": "AppBaseLib",
   "version": "0.1.0",
-  "summary": "A short description of AppBaseLib.",
-  "description": "",
-  "homepage": "https://github.com/fleetlabs/swift-common",
   "license": "MIT",
+  "summary": "A short description of AppBaseLib.",
+  "description": "A short description of AppBaseLib.",
+  "homepage": "https://github.com/fleetlabs/swift-common",
   "authors": {
     "Jesse Xu": "jessexu@augmentum.com.cn"
   },
@@ -16,10 +16,9 @@
     "ios": "8.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "AppBaseLib": [
-      "Pod/Assets/*.png"
-    ]
-  }
+  "source_files": "Source/**/*.swift",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
 }
